@@ -1,0 +1,106 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ececec;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  background-color: #e01300;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+#movie-details {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  background-color: #ececec;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  gap: 20px;
+}
+
+#movie-details img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#movie-details .info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#movie-details .info-div h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#movie-details .info-div p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#movie-details .info-div .cast-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#movie-details .info-div .cast-list .cast-member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#movie-details .info-div .cast-list .cast-member:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#movie-details .info-div .cast-list .cast-member img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+#movie-details .info-div .cast-list .cast-member p {
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+}
