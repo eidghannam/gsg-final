@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-shadow: inset 0px -158px 74px 53px rgba(0, 0, 0, 0.6);
 }
 
 .header nav {
@@ -160,7 +163,7 @@ body {
 .testimonial .testimonial-content {
   position: relative;
   width: 100%;
-  top: -95px;
+  top: -85px;
   right: 450px;
   font-size: 32px;
   display: flex;
@@ -171,7 +174,10 @@ body {
 
 .testimonial .testimonial-content p {
   font-size: 32px;
+  font-weight: 400;
   z-index: 40;
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 21px #fff;
 }
 
 .testimonial .testimonial-content .testimonial-action {
@@ -189,10 +195,11 @@ body {
   border-radius: 25px;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  border: none;
 }
 
 .testimonial button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #cd1201;
 }
 
 .trending-movies {
@@ -226,6 +233,10 @@ body {
   background-color: #fff;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trending-movies .movies-container .movie:hover {
+  transform: translateY(-10px);
 }
 
 .trending-movies .movies-container .movie img {

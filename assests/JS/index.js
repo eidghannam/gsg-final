@@ -18,14 +18,15 @@ const slider = function () {
       testimonial.style.backgroundPosition = "center";
       testimonial.style.backgroundSize = "cover";
       testimonial.style.backgroundRepeat = "no-repeat";
-
-      // apply background image for the header
-      const header = document.querySelector(".header");
-      header.style.backgroundImage = `url(${movie.url})`;
-      header.style.backgroundPosition = "center";
-      header.style.backgroundSize = "cover";
-      header.style.backgroundRepeat = "no-repeat";
     });
+
+    // Set the header background image to the current slide's wide image
+    const currentMovie = DATA[slide];
+    const header = document.querySelector(".header");
+    header.style.backgroundImage = `url(${currentMovie.wide})`;
+    header.style.backgroundPosition = "center";
+    header.style.backgroundSize = "cover";
+    header.style.backgroundRepeat = "no-repeat";
   };
 
   const nextSlide = function () {
