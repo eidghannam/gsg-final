@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <p class="movie-title">${movie.movie_name}</p>
           <p class="release-date">Release Date: ${movie.release_date}</p>
           <p class="rating">Rating: ${movie.rating} / 5</p>
+          <button onclick="Details(${movie.id})">Details</button>
         </div>
       </div>
     `;
@@ -45,6 +46,20 @@ document.addEventListener("DOMContentLoaded", function () {
       searchResultsMoviesList.forEach((movie) => renderMovie(movie));
     } else {
       movieList.innerHTML = "<p>No search results found.</p>";
+    }
+  };
+
+  //! Show Details
+  window.Details = function (id) {
+    const selectedMovie = searchResultsMoviesList.find(
+      (movie) => movie.id === id
+    );
+
+    if (selectedMovie) {
+      localStorage.setItem("selectedMovie", JSON.stringify(selectedMovie));
+      window.location.href = "./details.html"; // Ensure this path is correct
+    } else {
+      console.error("Movie not found in search results.");
     }
   };
 

@@ -157,7 +157,7 @@ const DATA = [
   {
     id: 14,
     url: "./assests/img/the-avengers.jpg",
-    wide: "./assests/img/the-avengers-wide.jpg",
+    wide: "./assests/img/the-avengers-wide.webp",
     movie_name: "The Avengers",
     release_date: "2012-05-04",
     rating: 5,
@@ -168,7 +168,7 @@ const DATA = [
   {
     id: 15,
     url: "./assests/img/guardians-of-the-galaxy.jpg",
-    wide: "./assests/img/guardians-of-the-galaxy-wide.jpg",
+    wide: "./assests/img/guardians-of-the-galaxy-wide.webp",
     movie_name: "Guardians of the Galaxy",
     release_date: "2014-08-01",
     rating: 5,
@@ -189,8 +189,8 @@ const DATA = [
   },
   {
     id: 17,
-    url: "./assests/img/star-wars.jpg",
-    wide: "./assests/img/star-wars-wide.jpg",
+    url: "./assests/img/star-wars.jpeg",
+    wide: "./assests/img/star-wars-wide.webp",
     movie_name: "Star Wars: A New Hope",
     release_date: "1977-05-25",
     rating: 5,
@@ -201,7 +201,7 @@ const DATA = [
   {
     id: 18,
     url: "./assests/img/spider-man-no-way-home.jpg",
-    wide: "./assests/img/spider-man-no-way-home-wide.jpg",
+    wide: "./assests/img/spider-man-no-way-home-wide.webp",
     movie_name: "Spider-Man: No Way Home",
     release_date: "2021-12-17",
     rating: 5,
@@ -234,7 +234,7 @@ const DATA = [
   {
     id: 21,
     url: "./assests/img/black-panther.jpg",
-    wide: "./assests/img/black-panther-wide.jpg",
+    wide: "./assests/img/black-panther-wide.avif",
     movie_name: "Black Panther",
     release_date: "2018-02-16",
     rating: 5,
@@ -256,7 +256,7 @@ const DATA = [
   {
     id: 23,
     url: "./assests/img/transformers.jpg",
-    wide: "./assests/img/transformers-wide.jpg",
+    wide: "./assests/img/transformers-wide.webp",
     movie_name: "Transformers",
     release_date: "2007-07-03",
     rating: 4,
@@ -267,7 +267,7 @@ const DATA = [
   {
     id: 24,
     url: "./assests/img/x-men.jpg",
-    wide: "./assests/img/x-men-wide.jpg",
+    wide: "./assests/img/x-men-wide.webp",
     movie_name: "X-Men",
     release_date: "2000-07-14",
     rating: 4,
@@ -289,7 +289,7 @@ const DATA = [
   {
     id: 26,
     url: "./assests/img/star-trek.jpg",
-    wide: "./assests/img/star-trek-wide.jpg",
+    wide: "./assests/img/star-trek-wide.avif",
     movie_name: "Star Trek",
     release_date: "2009-05-08",
     rating: 5,
@@ -300,7 +300,7 @@ const DATA = [
   {
     id: 27,
     url: "./assests/img/edge-of-tomorrow.jpg",
-    wide: "./assests/img/edge-of-tomorrow-wide.jpg",
+    wide: "./assests/img/edge-of-tomorrow-wide.avif",
     movie_name: "Edge of Tomorrow",
     release_date: "2014-06-06",
     rating: 5,

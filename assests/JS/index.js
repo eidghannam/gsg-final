@@ -20,7 +20,6 @@ const slider = function () {
       testimonial.style.backgroundRepeat = "no-repeat";
     });
 
-    // Set the header background image to the current slide's wide image
     const currentMovie = DATA[slide];
     const header = document.querySelector(".header");
     header.style.backgroundImage = `url(${currentMovie.wide})`;

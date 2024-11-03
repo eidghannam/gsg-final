@@ -71,4 +71,19 @@ h1 {
   font-size: 14px;
   color: #ff6f61;
   font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.actions-container button {
+  background-color: #ff2600;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions-container button:hover {
+  background-color: #e01300;
 }

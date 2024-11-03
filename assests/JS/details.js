@@ -6,16 +6,13 @@ const renderMovieDetails = () => {
   const backgroundContainer = document.querySelector(".background");
 
   if (movie) {
-    // Set the background image and blur it
     backgroundContainer.style.backgroundImage = `url(${movie.wide})`;
 
-    // Generate stars for the rating using a for loop
     let ratingStars = "";
     for (let i = 0; i < movie.rating; i++) {
       ratingStars += '<i class="fa-solid fa-star"></i>';
     }
 
-    // Generate HTML for movie details
     const castHTML = movie.cast
       .map(
         (actor) => `
