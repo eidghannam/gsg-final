@@ -200,8 +200,8 @@ const DATA = [
   },
   {
     id: 18,
-    url: "./assests/img/spider-man.jpg",
-    wide: "./assests/img/spider-man-wide.jpg",
+    url: "./assests/img/spider-man-no-way-home.jpg",
+    wide: "./assests/img/spider-man-no-way-home-wide.jpg",
     movie_name: "Spider-Man: No Way Home",
     release_date: "2021-12-17",
     rating: 5,
